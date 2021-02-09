@@ -9,15 +9,16 @@ import UIKit
 
 class FavoriteListTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var favoriteListDetailButton: UIButton!
+    @IBOutlet weak var favoriteListRecipeNameLabel: UILabel!
+    @IBOutlet weak var favoriteListIngredientsLabel: UILabel!
+    @IBOutlet weak var favoriteListHandImageView: UIImageView!
+    @IBOutlet weak var favoriteListClockImageView: UIImageView!
+    @IBOutlet weak var favoriteListeCaloriesLabel: UILabel!
+    @IBOutlet weak var favoriteListCookTimeLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

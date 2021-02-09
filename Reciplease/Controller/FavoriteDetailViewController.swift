@@ -8,22 +8,23 @@
 import UIKit
 
 class FavoriteDetailViewController: UIViewController {
+    
+    @IBOutlet weak var pictureFavoriteImageView: UIImageView!
+    @IBOutlet weak var recipeNameFavoriteLabel: UILabel!
+    @IBOutlet weak var ingredientsFavoriteLabel: UILabel!
+    @IBOutlet weak var directionsFavoriteButton: UIButton!
+    @IBOutlet weak var caloriesFavoriteLabel: UILabel!
+    @IBOutlet weak var cookTimeFavoriteLabel: UILabel!
+    @IBOutlet weak var pouceFavoriteImageView: UIImageView!
+    @IBOutlet weak var clockFavoriteImageView: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func directionsFavoriteButton(_ sender: Any) {
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
